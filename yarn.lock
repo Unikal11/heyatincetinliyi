@@ -59,6 +59,11 @@
   dependencies:
     "tweetnacl" "^0.14.3"
 
+"body-parse@^0.1.0":
+  "integrity" "sha512-k0PDF7vZZpspXlwoM8ywh9PIHZokooS0Rek4M8Vekoro7XuuaWVhjgTpdzIRrfKj5oLQahwjn621/4kG4d91xw=="
+  "resolved" "https://registry.npmjs.org/body-parse/-/body-parse-0.1.0.tgz"
+  "version" "0.1.0"
+
 "body-parser@1.20.1":
   "integrity" "sha512-jWi7abTbYwajOytWCQc37VulmWiRae5RyTpaCyDcS5/lMdtwSz5lOpDE67srw/HYe35f1z3fDQw+3txg7gNtWw=="
   "resolved" "https://registry.npmjs.org/body-parser/-/body-parser-1.20.1.tgz"
