@@ -31,7 +31,6 @@ app.get("/student/:id", (req, res) => {
         break; // Exit the loop when a match is found
       }
     }
-
     // If no match is found, send an appropriate response
     if (!found) {
       res.status(404).send("User not found!"); // Use a 404 status code for not found
@@ -59,7 +58,7 @@ app.post("/student/", (req, res) => {
   let obj = req.body;
   connection.query(
     `INSERT INTO users (id, ad, soyad, parol)
-    VALUES ("${obj.id}", "${obj.ad}", "${obj.soyad}", "${obj.parol}",`,
+    VALUES ("${obj.id}", "${obj.ad}", "${obj.soyad}", "${obj.parol}")`,
     function (err, result, fields) {
     }
   );
